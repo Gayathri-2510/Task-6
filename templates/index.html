@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Gayathri</h1>
+    <p>Python Developer & Machine Learning Explorer </p>
+  </header>
 
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Gayathri, I bring both conceptual knowledge and practical exposure to real-world software solutions. I am actively seeking opportunities to contribute to innovative projects that blend AI, cloud, and web technologies. Welcome to my portfolio!</p>
+  </section>
+<section id="personal-info">
+  <h2>Personal Information</h2>
+  <ul>
+    <li><strong>Full Name:</strong> Gayathri V</li>
+    <li><strong>Educational Background:</strong> Master of Computer Applications (M.C.A), Mepco Schlenk Engineering College</li>
+    <li><strong>Technical Proficiencies:</strong> Python, Java, C, MySQL, HTML, JavaScript, AWS, Azure Cloud</li>
+    <li><strong>Certifications:</strong> Microsoft Certified Azure AI Engineer, NPTEL Java Programming, IEEE Professional English</li>
+    <li><strong>Interests:</strong> AI, cloud technologies, web development, Machine Learning</li>
+    <li><strong>Contact:</strong>
+      <ul>
+        <li>Email: gayathri@gmail.com</li>
+        <li>LinkedIn: <a href="" target="_blank">linkedin.com/in/gayathri</a></li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Project 1:</strong> Bike Rental Website</li>
+      <li><strong>Project 2:</strong> Diet Recommendation App</li>
+      <li><strong>Project 3:</strong> Fabric Detection Using Machine Learning</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form method="POST" action="/">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gayathri</p>
+  </footer>
+</body>
+</html>
